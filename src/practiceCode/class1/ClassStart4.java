@@ -1,6 +1,6 @@
 package practiceCode.class1;
 
-public class ClassStart3 {
+public class ClassStart4 {
 
     public static void main(String[] args) {
         Student student1;   //학생을 담을 변수 선언
@@ -14,8 +14,16 @@ public class ClassStart3 {
         student2.age = 18;
         student2.grade = 80;
 
-        System.out.println("이름: " + student1.name + "나이 : " + student1.age + "점수: " + student1.grade);
-        System.out.println("이름: " + student2.name + "나이 : " + student2.age + "점수: " + student2.grade);
+        Student[] students = new Student[2];
+        students[0] = student1;
+        students[1] = student2;
+
+//
+//        System.out.println("이름: " + student1.name + "나이 : " + student1.age + "점수: " + student1.grade);
+//        System.out.println("이름: " + student2.name + "나이 : " + student2.age + "점수: " + student2.grade);
+
+        System.out.println("이름: " + students[0].name + "나이 : " + students[0].age + "점수: " + students[0].grade);
+        System.out.println("이름: " + students[1].name + "나이 : " + students[1].age + "점수: " + students[1].grade);
 
         System.out.println("참조 경로 출력");
         System.out.println(student1);
