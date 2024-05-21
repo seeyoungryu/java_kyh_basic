@@ -18,8 +18,12 @@ public class ClassStart4 {
         students[0] = student1;
         students[1] = student2;
 
-        //배열이 참조값을 가지게 됨 ->  참조값을 통해 해당 인스턴스에 접근 할 수 있게 됨
+        //배열이 참조값을 가지게 됨 ->  참조값을 통해 해당 인스턴스에 접근 할 수 있게 됨 (변수에는 값 자체가 들어있는게 아니고 참조값이 복사되어 들어있는 것임!)
+        // *변수에는 인스턴스 자체가 들어가는게 아니고 참조값만 복사되어 들어가는것임
 
+        /* 제일 중요한 개념!
+        자바에서 대입은 항상 변수에 들어있는 값을 복사해서 전달한다!
+         */
 //
 //        System.out.println("이름: " + student1.name + "나이 : " + student1.age + "점수: " + student1.grade);
 //        System.out.println("이름: " + student2.name + "나이 : " + student2.age + "점수: " + student2.grade);
