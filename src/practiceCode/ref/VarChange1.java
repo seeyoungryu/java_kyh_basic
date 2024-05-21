@@ -15,6 +15,19 @@ public class VarChange1 {
         System.out.println(dataA.value);
         System.out.println(dataB.value);
 
+        //dataA 변경
+        dataA.value = 20;
+        System.out.println("dataA.value = " + dataA.value);
+        System.out.println("dataB.value = " + dataB.value);
+        //dataB 변경
+        dataB.value = 200;
+        System.out.println("dataA.value = " + dataA.value);
+        System.out.println("dataB.value = " + dataB.value);
 
     }
 }
+
+
+/* Data dataB = dataA 라고 했을 때, 자바는 "변수에 들어있는 값"을 복사해서 사용하는데,
+여기서 변수에 들어있는 값 -> 이 *참조값* 이므로 그 참조값이 복사되는 것임! --> 같은 객체 인스턴스를 참조
+ */
