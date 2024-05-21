@@ -17,6 +17,10 @@ public class ClassStart3 {
         System.out.println("이름: " + student1.name + "나이 : " + student1.age + "점수: " + student1.grade);
         System.out.println("이름: " + student2.name + "나이 : " + student2.age + "점수: " + student2.grade);
 
+        System.out.println("참조 경로 출력");
+        System.out.println(student1);
+        System.out.println(student2);
+
     }
 
 }
