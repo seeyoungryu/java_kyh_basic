@@ -18,6 +18,8 @@ public class ClassStart4 {
         students[0] = student1;
         students[1] = student2;
 
+        //배열이 참조값을 가지게 됨 ->  참조값을 통해 해당 인스턴스에 접근 할 수 있게 됨
+
 //
 //        System.out.println("이름: " + student1.name + "나이 : " + student1.age + "점수: " + student1.grade);
 //        System.out.println("이름: " + student2.name + "나이 : " + student2.age + "점수: " + student2.grade);
