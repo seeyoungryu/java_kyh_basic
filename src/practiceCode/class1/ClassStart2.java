@@ -1,4 +1,4 @@
-package courseMaterials.class1;
+package practiceCode.class1;
 
 public class ClassStart2 {
 
