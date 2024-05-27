@@ -7,12 +7,13 @@ public class Method2 {
 
         printStudent(student1);
         printStudent(student2);
-
     }
 
     static Student createStudent(String name, int age, int grade) {
         //반환타입 Student 인 메소드
         Student student = new Student();
+        System.out.println("student 참조값" + student);
+
         student.name = name;
         student.age = age;
         student.grade = grade;
@@ -29,4 +30,6 @@ public class Method2 {
         System.out.println("이름:" + student.name + "나이:" + student.age + "성적:" + student.grade);
 
     }
+
+
 }
