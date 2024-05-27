@@ -1,7 +1,7 @@
 package practiceCode.oop;
 
-
-//기능 모듈화
+//절차지향 코드 예시 (순서 중요시)
+//기존 코드 -> 기능 모듈화
 
 public class MusicPlayerMain2 {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class MusicPlayerMain2 {
 
         //켜기
         on(data);
-
         //볼륨 증가
         volumeUp(data);
         //볼륨 증가
