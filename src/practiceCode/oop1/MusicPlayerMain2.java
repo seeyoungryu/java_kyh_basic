@@ -1,4 +1,4 @@
-package practiceCode.oop;
+package practiceCode.oop1;
 
 //절차지향 코드 예시 (순서 중요시)
 //기존 코드 -> 기능 모듈화
@@ -51,6 +51,4 @@ public class MusicPlayerMain2 {
             System.out.println("플레이어 꺼져있음");
         }
     }
-
-
 }

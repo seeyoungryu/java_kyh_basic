@@ -1,4 +1,4 @@
-package practiceCode.oop;
+package practiceCode.oop1;
 
 
 //<절차지향 코드 예시>

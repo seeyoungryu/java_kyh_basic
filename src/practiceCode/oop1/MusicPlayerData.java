@@ -1,4 +1,4 @@
-package practiceCode.oop;
+package practiceCode.oop1;
 
 public class MusicPlayerData {
     int volume;
