@@ -1,5 +1,7 @@
 package practiceCode.oop1;
 
+//객체지향적 코드
+//속성과 기능이 한 클래스 내에 있음 -> 외부에 제공 (캡슐화)
 public class MusicPlayer {
 
     int volume = 0;
