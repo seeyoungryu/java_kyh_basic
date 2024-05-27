@@ -1,5 +1,7 @@
 package practiceCode.oop1;
 
+
+//*클래스에 속성과 메서드(기능)를 정의할 수 있다*
 public class ValueData {
     int value;
 
