@@ -9,5 +9,6 @@ public class ValueObjectMain {
         valueData.add();
         System.out.println("최종 숫자=" + valueData.value);
     }
-
 }
+
+
