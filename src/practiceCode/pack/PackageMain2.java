@@ -1,6 +1,6 @@
 package practiceCode.pack;
 
-import pack.a.*;
+import practiceCode.pack.a.User;
 
 public class PackageMain2 {
 
