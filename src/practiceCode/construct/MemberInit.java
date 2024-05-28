@@ -6,14 +6,12 @@ public class MemberInit {
     int age;
     int grade;
 
-    //추가
-
     // <MethodInitMain2 에 정의되었던 메서드>
-//    *static* void initMember(MemberInit member, String name, int age, int grade) {
-//        member.name = name;
-//        member.age = age;
-//        member.grade = grade;
-//    }
+    //    *static* void initMember(MemberInit member, String name, int age, int grade) {
+    //        member.name = name;
+    //        member.age = age;
+    //        member.grade = grade;
+    //    }
     void initMember(String name, int age, int grade) {   //이 메서드는 객체의 초기값을 설정하는 역할을 한다!
         this.name = name;
         this.age = age;
