@@ -6,6 +6,13 @@ public class MemberInit {
     int age;
     int grade;
 
+    /* 기본생성자 --> 매개변수가 없는 생성자
+     <    MemberInit(){}   >
+      - 클래스에 생성자가 하나도 없으면 자바 컴파일러는 기본 생성자를 자동으로 만들어줌
+      - but 생성자가 하나라도 있으면 자바는 기본 생성자를 만들지 않음
+     */
+
+
     // <MethodInitMain2 에 정의되었던 메서드>
     //    *static* void initMember(MemberInit member, String name, int age, int grade) {
     //        member.name = name;

@@ -12,7 +12,7 @@ public class MemberConstruct {
     - 반환타입이 없다
 
     ! ! !  객체를 생성할ㄷ 때 직접 정의한 생성자가 있었다면
-    -> 직접 정의한 생성자를 반드시 호출한다 ! ! !
+    -> 직접 정의한 생성자를 반드시 호출한다 - 강제 ! ! !
 
      */
     MemberConstruct(String name, int age, int grade) {
