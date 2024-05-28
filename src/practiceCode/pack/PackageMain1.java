@@ -1,9 +1,9 @@
-//package practiceCode.pack;
-//
-//public class PackageMain1 {
-//
-//    public static void main(String[] args) {
-//        Data data = new Data();
-//        pack.a.User user = new pack.a.User();
-//    }
-//}
+package practiceCode.pack;
+
+public class PackageMain1 {
+
+    public static void main(String[] args) {
+        Data data = new Data();
+        practiceCode.pack.a.User user = new practiceCode.pack.a.User();
+    }
+}
