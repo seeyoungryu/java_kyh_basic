@@ -23,8 +23,8 @@ public class MemberConstruct {
     }
 
 
-    //추가
+    //추가 - 생성자 오버라이딩
     MemberConstruct(String name, int age) {
-        this(name, age, 50); //변경
+        this(name, age, 50);
     }
 }
