@@ -1,6 +1,6 @@
 package practiceCode.access.b;
 
-import access.a.AccessData;
+import practiceCode.access.a.AccessData;
 
 public class AccessOuterMain {
     public static void main(String[] args) {

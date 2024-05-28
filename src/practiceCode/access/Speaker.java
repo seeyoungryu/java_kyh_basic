@@ -2,7 +2,13 @@ package practiceCode.access;
 
 public class Speaker {
     private int volume;
+    /*
+    private 접근 제어자
+    - 모든 외부호출을 막는다
+    - 현재 클래스 내부에서만 호출 가능하다
+     */
 
+    
     Speaker(int volume) {
         this.volume = volume;
     }

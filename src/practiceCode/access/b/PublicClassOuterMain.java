@@ -2,7 +2,8 @@ package practiceCode.access.b;
 
 //import access.a.DefaultClass1;
 
-import access.a.PublicClass;
+import practiceCode.access.a.PublicClass;
+
 
 public class PublicClassOuterMain {
     public static void main(String[] args) {
