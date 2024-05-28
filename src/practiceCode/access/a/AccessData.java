@@ -18,6 +18,8 @@ public class AccessData {
         System.out.println("privateMethod 호출 " + privateField);
     }
 
+
+    //본 클래스 내부에서 모두 호출~접근 가능
     public void innerAccess() {
         System.out.println("내부 호출");
         publicField = 100;

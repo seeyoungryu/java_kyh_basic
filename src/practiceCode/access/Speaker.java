@@ -1,14 +1,20 @@
 package practiceCode.access;
 
 public class Speaker {
+
+
     private int volume;
     /*
     private 접근 제어자
-    - 모든 외부호출을 막는다
-    - 현재 클래스 내부에서만 호출 가능하다
+    - 이 필드에 대한 모든 외부호출을 막는다
+    - 현재 클래스 내부에서만 이 필드를 호출 가능하다
+
+    cf) int volume -> default(package-private) : 같은 패키지 안에서의 호출 허용
+
+    * 접근 제어자의 사용 위치 : 필드(멤버변수),메서드,생성자 -- 일부 클래스 레벨
      */
 
-    
+
     Speaker(int volume) {
         this.volume = volume;
     }
