@@ -1,6 +1,6 @@
 package practiceCode.access.b;
 
-//import access.a.DefaultClass1; - import 해도 불가함!!!!
+//import access.a.DefaultClass1; - import 해도 불가
 
 import practiceCode.access.a.PublicClass;
 
