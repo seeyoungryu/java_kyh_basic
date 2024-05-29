@@ -21,3 +21,5 @@ public class DataCountMain3 {
         System.out.println(Data3.count);
     }
 }
+
+
