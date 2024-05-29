@@ -18,6 +18,6 @@ public class DataCountMain3 {
         System.out.println(data4.count);
 
         //클래스를 통한 접근
-        System.out.println(Data3.count);
+        System.out.println(Data3.count); //클래스를 통해서 count 정적 변수에 접근
     }
 }
