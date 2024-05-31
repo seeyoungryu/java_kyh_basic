@@ -1,6 +1,6 @@
 package practiceCode.extends1.access;
 
-import extends1.access.child.Child;
+import practiceCode.extends1.access.child.Child;
 
 public class ExtendsAccessMain {
 

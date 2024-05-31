@@ -1,6 +1,7 @@
 package practiceCode.extends1.access.child;
 
-import extends1.access.parent.Parent;
+
+import practiceCode.extends1.access.parent.Parent;
 
 public class Child extends Parent {
 
