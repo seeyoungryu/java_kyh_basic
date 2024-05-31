@@ -16,7 +16,7 @@ public class PolyMain {
 
         //부모 변수가 자식 인스턴스 참조(다형적 참조)
         System.out.println("Parent -> Child");
-        Parent poly = new Child();
+        Parent poly = new Child();  //부모 타입에 자식 객체 만듦
         poly.parentMethod();
 
         //Child child1 = new Parent(); //자식은 부모를 담을 수 없다.
@@ -24,5 +24,6 @@ public class PolyMain {
         //자식의 기능은 호출할 수 없다. 컴파일 오류 발생
         //poly.childMethod();
 
+        //* 부모: 자식타입 참조 가능, 자식 기능 호출 불가 <-> 자식: 부모타입 참조 불가, 부모 기능 호출 가능 *
     }
 }
