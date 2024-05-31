@@ -1,5 +1,10 @@
 package practiceCode.poly.basic;
 
+/*
+<다형성 핵심>
+-다형적 참조: 하나의 변수 타입으로 다양한 자식 인스턴스를 참조할 수 있는 기능
+-메서드 오버라이딩: 기존 기능을 하위 타입에서 새로운 기능으로 재정의
+ */
 public class PolyMain {
 
     public static void main(String[] args) {
