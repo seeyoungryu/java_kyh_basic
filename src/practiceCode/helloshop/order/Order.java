@@ -1,8 +1,5 @@
 package practiceCode.helloshop.order;
 
-import com.helloshop.product.Product;
-import com.helloshop.user.User;
-
 public class Order {
 
     User user;
