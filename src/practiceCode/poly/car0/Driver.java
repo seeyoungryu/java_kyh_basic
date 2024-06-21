@@ -2,7 +2,7 @@ package practiceCode.poly.car0;
 
 public class Driver {
 
-    private K3Car k3Car;
+    private K3Car k3Car;  //참조형 -> 객체생성시 값 초기화는 NULL 로 된다!
     private Model3Car model3Car; //추가
 
     public void setK3Car(K3Car k3Car) {
